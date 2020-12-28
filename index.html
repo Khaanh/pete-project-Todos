@@ -4,9 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todos</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <main class="wrapper">
+    <header class="header">
+      <h1>Welcome!</h1>
+
+      <form action="#" id="form">
+        <input type="text" placeholder="What needs to be done?" id="newTodo">
+      </form>
+    </header>
+
+    <ul id="todoList"></ul>
+
+
+    <footer class="footer">
+      <div id="items-count"><i>112</i> items left</div>
+
+      <div class="filter-holder">
+        <button id="btn-all">All</button>
+        <button id="btn-active">Active</button>
+        <button id="btn-completed">Completed</button>
+      </div>
+
+      <button id="btn-clear">Clear completed</button>
+    </footer>
+  </main>
   
   <script src="index.js"></script>
 </body>
