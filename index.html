@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todos</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
 <body>
+
 
   <main class="wrapper">
     <header class="header">
@@ -19,11 +21,20 @@
       </form>
     </header>
 
-    <ul id="todoList"></ul>
+    <ul id="todoList">
+      <li class="items">
+        <button class="fas fa-check"></button>
+        <div class="todo-items">asdasd</div>
+        <button class="fas fa-times"></button>
+      </li>
+    </ul>
+
 
 
     <footer class="footer">
       <div id="items-count"><i>112</i> items left</div>
+      <!-- <i class="fas fa-check"></i> -->
+      <!-- <i class="far fa-window-close"></i> -->
 
       <div class="filter-holder">
         <button id="btn-all">All</button>
